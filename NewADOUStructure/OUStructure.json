@@ -1,0 +1,38 @@
+{
+    "OrganizationUnits": [
+        {
+            "Brands": [
+                {
+                    "DN": "OU=Brand1,DC=lab,DC=local",
+                    "Code": "Brand1"
+                },
+                {
+                    "DN": "OU=Brand2,DC=lab,DC=local",
+                    "Code": "Brand2"
+                }
+            ],
+            "Sites": [
+                {
+                    "DN": "OU=Site1,OU=Brand1,DC=lab,DC=local",
+                    "Code": "Site1"
+                },
+                {
+                    "DN": "OU=Site2,OU=Brand2,DC=lab,DC=local",
+                    "Code": "Site2"
+                }
+            ],
+            "BrandSubOUs": [
+                "Admin Accounts",
+                "Role Groups",
+                "Service Accounts",
+                "Standard Groups",
+                "Task Groups"
+            ],
+            "SiteSubOUs": [
+                "Servers",
+                "Workstations"
+            ]
+        }
+    ]
+}
+        
