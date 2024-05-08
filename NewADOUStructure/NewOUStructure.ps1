@@ -16,7 +16,7 @@ This is a Mandatory parameter to the full path of the JSON delegation input file
 
 .Example
 NewOUStructure -JsonFile C:\Files\OUStructure.json
-Creating new task groups for site based delegation
+Creating new OU Structure
 
 .Inputs
 Requires a JSON file with DN for the script to execute properly
