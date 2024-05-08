@@ -1,0 +1,64 @@
+{
+    "OrganizationUnits": [
+        {
+            "SiteCodes": [
+                {
+                    "productDN": "OU=Brand1,DC=lab,DC=local",
+                    "productCode": "Brand1",
+                    "Sites":    [
+                        "SiteB1-1",
+                        "SiteB1-2"
+                    ]
+                },
+                {
+                    "productDN": "OU=Brand2,DC=lab,DC=local",
+                    "productCode": "Brand2",
+                    "Sites":    [
+                        "SiteB2-1",
+                        "SiteB2-2"
+                    ]
+                }
+            ]
+        }
+    ],
+    "Delegations": [
+        {
+            "UserObjects": [
+                {
+                    "TargetOUs":    [
+                        "Admin Accounts"
+                    ],
+                    "Permissions":  [
+                        "CreateChild",
+                        "DeleteChild",
+                        "name",
+                        "Name",
+                        "givenName",
+                        "displayName",
+                        "description"
+                    ]
+                }
+            ],
+            "GroupObjects": [
+                {
+                    "TargetOUs":    [
+                        
+                    ],
+                    "Permissions":  [
+                        
+                    ]
+                }
+            ],
+            "ComputerObjects": [
+                {
+                    "TargetOUs":    [
+                        
+                    ],
+                    "Permissions":  [
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}
