@@ -1,0 +1,85 @@
+{
+    "OrganizationUnits": [
+        {
+            "SiteCodes": [
+                {
+                    "productDN": "OU=Brand1,DC=lab,DC=local",
+                    "productCode": "Brand1",
+                    "Sites":    [
+                        "SiteB1-1",
+                        "SiteB1-2"
+                    ]
+                },
+                {
+                    "productDN": "OU=Brand2,DC=lab,DC=local",
+                    "productCode": "Brand2",
+                    "Sites":    [
+                        "SiteB2-1",
+                        "SiteB2-2"
+                    ]
+                }
+            ]
+        }
+    ],
+    "Groups": [
+        {
+            "ProductGroups": [
+                {
+                    "Name": "PasswordResetAccountUnlock",
+                    "Description": "Grants Password Reset and Account Unlock Rights at"
+                },
+                {
+                    "Name": "RoleGroupAdmins",
+                    "Description": "Grants Create/Delete/Modify Rights for Role Groups at"
+                },
+                {
+                    "Name": "StdGroupAdmins",
+                    "Description": "Grants Create/Delete/Modify Rights for Standard Groups at"
+                },
+                {
+                     "Name": "SvcAccAdmins",
+                     "Description": "Grants Modify Rights to Service Accounts at"
+                },
+                {
+                    "Name": "TaskGroupAdmins",
+                    "Description": "Grants Create/Delete/Modify Rights for Task Groups at"
+                },
+                {
+                    "Name": "UserAdmins",
+                    "Description": "Grants Modify Rights to Admin Accounts at"
+                },
+                {
+                    "Name": "UserCreateDelete",
+                    "Description": "Grants Create & Delete Rights for Users at"
+                }
+            ],
+            "SiteGroups": [
+                {
+                    "Name": "LAPSServerAdmins",
+                    "Description": "Grants Read/Write Access to Server LAPS Password at"
+                },
+                {
+                    "Name": "LAPSWorkstationAdmins",
+                    "Description": "Grants Read/Write Access to Workstation LAPS Password at"
+                },
+                {
+                    "Name": "ServerAdmins",
+                    "Description": "Grants Admin Rights to all Servers at"
+                },
+                {
+                    "Name": "ServerCreateDelete",
+                    "Description": "Grants Create & Delete Rights on the Servers OU at"
+                },
+                {
+                    "Name": "WorkstationAdmins",
+                    "Description": "Grants Admin Rights to all Workstations at"
+                },
+                {
+                    "Name": "WorkstationCreateDelete",
+                    "Description": "Grants Create & Delete Rights on the Workstations OU at"
+                }
+            ]
+        }
+    ]
+}
+        
