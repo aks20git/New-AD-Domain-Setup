@@ -1,3 +1,30 @@
+<#
+.NOTES
+  Version:        v1.0
+  Author:         https://github.com/aks20git
+  Creation Date:  April, 2024
+  Purpose/Change: Using a JSON source file to create OU Structure in AD
+
+.Synopsis
+Script requires a JSON source file for OU names and locations
+
+.Description
+A JSON file is used as a golden source with path and names of the new OUs to be created
+
+.Parameter JsonPath
+This is a Mandatory parameter to the full path of the JSON delegation input file
+
+.Example
+NewOUStructure -JsonFile C:\Files\OUStructure.json
+Creating new task groups for site based delegation
+
+.Inputs
+Requires a JSON file with DN for the script to execute properly
+
+.Outputs
+Task groups will be created for each of the sites and the transaction logged. The output file path needs to be set
+#>
+
 Param(
     [Parameter(Mandatory = $false)]
     [string]$JsonPath,
